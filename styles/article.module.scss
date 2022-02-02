@@ -1,0 +1,42 @@
+section.all_articles{
+    width: inherit;
+    min-height: inherit;
+    height: auto;
+    // margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   position:relative;
+.btn{
+    position:sticky;
+    margin-left: 750px;
+    top: 50vh;
+    height: 100px;
+    font-size: 1.3rem;
+    // padding: 0 20px;
+    background: none;
+    outline: none;
+    border: 1px solid gray;
+    width: auto;
+    padding: 0 20px;
+    text-align: center;
+    h1{
+        font-size: 3rem;
+    }
+    
+}
+    article{
+        width: 500px;
+        height: 200px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        h1{
+            font-size: 2.5rem;
+            font-weight: 100;
+        }
+    }
+}
